@@ -1,0 +1,99 @@
+.work-card{
+    display: flex;
+    flex-direction: row;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s linear;
+    margin: 2% auto;
+}
+
+.work-card:hover{
+    transform: translateY(-7px);
+}
+
+.work-card-img{
+    display: flex;
+    justify-content: center;
+    max-width: 6%!important;
+    height: 100%;
+    margin: 2% 1% 2% 2%;
+    background-color: white;
+    /* border-radius: 10%;
+    overflow: hidden; */
+}
+
+.work-logo-pic{
+    height: 90%;
+    width: 90%;
+}
+
+
+.work-card-body{
+    display: flex;
+    flex-direction: column;
+    margin: 1% 1% 1% 2%;
+    width: 100%;
+}
+
+.work-body-header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.work-designation{
+    margin: 1% 0;
+    font-size: larger;
+}
+
+.work-companyName{
+    margin: 1% 0;
+    font-size: medium;
+}
+
+.work-description{
+    margin: 1% 0;
+    white-space: pre-wrap;
+    font-size: small;
+}
+
+.work-body-header-duration{
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
+.work-duration{
+    font-weight: 100;
+    font-size: small;
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .work-card{
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 5% auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .work-body-header{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin: 5% auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .work-card-img{
+        max-width: 30%!important;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 600px) {
+    .work-description{
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+}
