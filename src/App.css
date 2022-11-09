@@ -32,7 +32,7 @@
   --clr-fg-alt: #444;
   /* --clr-primary: #013ca9; */
   /* --clr-primary: #318e7d; */
-  --clr-primary:#07559e;
+  --clr-primary: #005999;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -132,7 +132,7 @@ main {
 .link--nav {
   color: var(--clr-fg);
   /* text-transform: capitalize; */
-  font-weight: 500;
+  font-weight: 700;
   font-size: small;
 }
 
@@ -184,30 +184,22 @@ main {
 .btn--filled {
     color: var(--clr-primary);
     background-color: transparent;
-    border: 1px solid var(--clr-primary);
+    border: 2px solid var(--clr-primary);
     border-radius: 5px;
     padding: 0.75rem 1rem;
     font-size: 13px;
+    font-weight: 800;
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
     margin: 10px;
     transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
-
-  /* display: block;
-  cursor: pointer;
-  padding: 0.8em 1.4em;
-  font-weight: 500;
-  font-size: 0.9rem;
-  text-transform: lowercase; */
-  /* transition: transform 0.2s ease-in-out; */
-  /* border-radius: 4px; */
-  /* transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1); */
 }
 
 .btn--filled:hover {
-  border: 1px solid var(--clr-primary);
+  border: 2px solid var(--clr-primary);
   color: var(--clr-bg);
+  font-weight: 800;
   background-color: var(--clr-primary);
   /* opacity: 0.1; */
   /* --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1); */
