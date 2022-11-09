@@ -4,10 +4,15 @@
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  background-color: var(--clr-bg-lt);
 }
 
 .project:hover {
   transform: translateY(-7px);
+}
+
+.project__name{
+  color: var(--clr-primary);
 }
 
 .project__description {
@@ -23,7 +28,7 @@
 
 .project__stack-item {
   margin: 0.5em;
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 0.8rem;
   color: var(--clr-fg-alt);
 }

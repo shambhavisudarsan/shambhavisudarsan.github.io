@@ -57,27 +57,39 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Personal Portfolio Website',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
+    publicationLink: '',
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'E-commerce Website with Image Search and Price Prediction',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Built and web-hosted a MERN stack e-commerce website on Heroku with Image Search feature to ease searching of similar apparel and Price Prediction feature to predict used/new phone prices for sellers. \n• Created Image Search feature using',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
+    publicationLink: 'https://link.springer.com/chapter/10.1007/978-981-16-9605-3_57',
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 3',
+    name: 'Distributed Systems Project',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
+    publicationLink: '',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: 'Detection of Cyberbullying in Social Media',
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['SASS', 'TypeScript', 'React'],
+    sourceCode: 'https://github.com',
+    publicationLink: '',
     livePreview: 'https://github.com',
   },
 ]

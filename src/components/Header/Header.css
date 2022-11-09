@@ -13,7 +13,9 @@
   margin: 0 auto;
   justify-content: space-between;
 }
-
+.header__title{
+  font-weight: bolder;
+}
 @media (max-width: 600px) {
   .header {
     height: 6em;

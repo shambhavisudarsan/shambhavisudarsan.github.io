@@ -6,7 +6,9 @@
   color: var(--clr-fg);
   background-color: var(--clr-bg);
 }
-
+#top{
+  margin: 0;
+}
 .light {
   /* --clr-bg: #e6e2ec;
     --clr-bg-alt: #14FFEC;
@@ -16,27 +18,66 @@
     --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
       rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
 
-  --clr-bg: #fcfcfc;
+  /* --clr-bg: #fcfcfc;
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
   --clr-primary: #2978b5;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+
+  --clr-bg: #f1f7fe;
+  --clr-bg-lt: rgb(251, 253, 255);
+  --clr-bg-alt: #fff;
+  --clr-fg: #555;
+  --clr-fg-alt: #444;
+  /* --clr-primary: #013ca9; */
+  /* --clr-primary: #318e7d; */
+  --clr-primary:#07559e;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .dark {
-  /* --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
+  /* --dark-navy: #020c1b;
+  --navy: #0a192f;
+  --light-navy: #112240;
+  --lightest-navy: #233554;
+  --navy-shadow: rgba(2,12,27,0.7);
+  --dark-slate: #495670;
+  --slate: #8892b0;
+  --light-slate: #a8b2d1;
+  --lightest-slate: #ccd6f6;
+  --white: #e6f1ff;
+  --green: #64ffda;
+  --green-tint: rgba(100,255,218,0.1);
+  --pink: #f57dff;
+  --blue: #57cbff; */
+
+
+
+  /* --clr-bg: #171935;
+  --clr-bg-alt: #404B69;
   --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
+  --clr-fg-alt: #DBEDF3;
+  --clr-primary: #02ced9;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-    --clr-bg: #26222c;
+
+    /* --clr-bg: #171935;
+  --clr-bg-alt: #404B69;
+  --clr-fg: #e6f1ff;
+  --clr-fg-alt: #ccd6f6;
+  --clr-primary: #00eeff;
+  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+
+
+
+    --clr-bg: #051628;
+    --clr-bg-lt : #071a31;
     --clr-bg-alt: #14FFEC;
-    --clr-fg: #DAE1E7;
-    --clr-fg-alt: #F85F73;
-    --clr-primary: #14FFEC;
+    --clr-fg: #a8b2d1;;
+    --clr-fg-alt: #ccd6f6;;
+    --clr-primary: #21E6C1;
     --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
       rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -90,8 +131,9 @@ main {
 
 .link--nav {
   color: var(--clr-fg);
-  text-transform: lowercase;
+  /* text-transform: capitalize; */
   font-weight: 500;
+  font-size: small;
 }
 
 .link--icon {
@@ -106,6 +148,7 @@ main {
   font-size: 0.9rem;
   text-transform: lowercase;
   transition: transform 0.2s ease-in-out;
+  border-radius: 4px;
 }
 
 .btn--outline {
@@ -138,9 +181,42 @@ main {
   right: 0;
 }
 
+.btn--filled {
+    color: var(--clr-primary);
+    background-color: transparent;
+    border: 1px solid var(--clr-primary);
+    border-radius: 5px;
+    padding: 0.75rem 1rem;
+    font-size: 13px;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+
+  /* display: block;
+  cursor: pointer;
+  padding: 0.8em 1.4em;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-transform: lowercase; */
+  /* transition: transform 0.2s ease-in-out; */
+  /* border-radius: 4px; */
+  /* transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1); */
+}
+
+.btn--filled:hover {
+  border: 1px solid var(--clr-primary);
+  color: var(--clr-bg);
+  background-color: var(--clr-primary);
+  /* opacity: 0.1; */
+  /* --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1); */
+}
+
 .btn--plain {
   text-transform: initial;
   background-color: var(--clr-bg-alt);
+  color: #03172b;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
   border: 0;
 }

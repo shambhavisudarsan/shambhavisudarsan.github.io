@@ -7,6 +7,7 @@
   margin-right: 3em; */
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  background-color: var(--clr-bg-lt);
   padding-bottom: 3em;
 }
 

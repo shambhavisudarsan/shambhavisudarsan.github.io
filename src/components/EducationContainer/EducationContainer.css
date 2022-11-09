@@ -4,6 +4,7 @@
     box-shadow: var(--shadow);
     transition: transform 0.2s linear;
     margin: 2% auto;
+    background-color: var(--clr-bg-lt);
 }
 
 .degree-card:hover{
@@ -43,6 +44,7 @@
 .degree-collegeName{
     margin: 1% 0;
     font-size: larger;
+    color: var(--clr-primary);
 }
 
 .degree-name{
