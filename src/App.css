@@ -25,8 +25,8 @@
   --clr-primary: #2978b5;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 
-  --clr-bg: #f1f7fe;
-  --clr-bg-lt: rgb(251, 253, 255);
+  --clr-bg: rgb(251, 253, 255);
+  --clr-bg-lt: #ffffff;
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
