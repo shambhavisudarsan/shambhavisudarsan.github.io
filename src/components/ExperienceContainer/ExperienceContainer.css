@@ -9,6 +9,7 @@
 
 .work-card:hover{
     transform: translateY(-7px);
+    --clr-project-name: var(--clr-primary);
 }
 
 .work-card-img{
@@ -44,7 +45,7 @@
 .work-designation{
     margin: 1% 0;
     font-size: larger;
-    color: var(--clr-primary);
+    color: var(--clr-project-name);
 }
 
 .work-companyName{

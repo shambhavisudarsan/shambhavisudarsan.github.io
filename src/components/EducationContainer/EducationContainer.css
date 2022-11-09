@@ -9,6 +9,7 @@
 
 .degree-card:hover{
     transform: translateY(-7px);
+    --clr-project-name: var(--clr-primary);
 }
 
 .degree-card-img{
@@ -44,7 +45,7 @@
 .degree-collegeName{
     margin: 1% 0;
     font-size: larger;
-    color: var(--clr-primary);
+    color: var(--clr-project-name);
 }
 
 .degree-name{
