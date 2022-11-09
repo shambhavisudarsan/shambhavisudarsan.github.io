@@ -5,14 +5,37 @@
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
   background-color: var(--clr-bg-lt);
+  /* flex-direction: row; */
+  max-width: 100%;
 }
 
 .project:hover {
   transform: translateY(-7px);
 }
 
+.project__header{
+  max-width: 100%;
+  display:flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  justify-content: center;
+  /* position: relative; */
+  /* flex-direction: row; */
+  /* flex-direction:column-reverse; */
+}
+.project__icons{
+  /* padding-top: 10px; */
+  max-width: 100%;
+  margin-left: 10px;
+  display:flex;
+  justify-content: space-between; 
+  /* flex-direction: row-reverse;  */
+  /* display: inline; */
+  /* flex-direction: row; */
+}
 .project__name{
   color: var(--clr-primary);
+  font-size: medium;
 }
 
 .project__description {

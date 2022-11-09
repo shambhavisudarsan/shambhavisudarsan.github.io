@@ -6,19 +6,9 @@ import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
+    <div className='project__header'>
     <h3 className='project__name'>{project.name}</h3>
-
-    <p className='project__description'>{project.description}</p>
-    {project.stack && (
-      <ul className='project__stack'>
-        {project.stack.map((item) => (
-          <li key={uniqid()} className='project__stack-item'>
-            {item}
-          </li>
-        ))}
-      </ul>
-    )}
-
+    <div className='project__icons'>
     {project.sourceCode && (
       <a
         href={project.sourceCode}
@@ -53,6 +43,19 @@ const ProjectContainer = ({ project }) => (
       >
         <LaunchIcon />
       </a>
+    )}
+    </div>
+    </div>
+
+    <p className='project__description'>{project.description}</p>
+    {project.stack && (
+      <ul className='project__stack'>
+        {project.stack.map((item) => (
+          <li key={uniqid()} className='project__stack-item'>
+            {item}
+          </li>
+        ))}
+      </ul>
     )}
   </div>
 )
