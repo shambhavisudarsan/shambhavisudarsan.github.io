@@ -9,7 +9,7 @@ const about = {
   name: 'Shambhavi Sudarsan',
   role: 'MS in Computer Science student at the University Of Utah',
   description:
-    'I recently completed my Bachelors in Computer Engineering in 2021. After which I worked on building a GUI interface for a company. Later, I got an opportunity to work as a Research Assistant under my professor during which I worked to visualize Named Entities using Neo4j. I am currently looking for Summer 2023 internships.',
+    'Hard working and highly motivated student with strong foundation in Data Structures and Algorithms currently looking for Summer 2023 internship opportunities.',
   resume: 'https://drive.google.com/file/d/1Q7kK6WiDZv37X5rBv3Vyba97b6ccPiTQ/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/shambhavisudarsan/',
@@ -61,36 +61,36 @@ const projects = [
     description:
       'A responsive personal portfolio website hosted on github.',
     stack: ['ReactJS', 'Javascript', 'HTML','CSS'],
-    sourceCode: 'https://github.com',
+    sourceCode: 'https://github.com/shambhavisudarsan/shambhavisudarsan.github.io',
     publicationLink: '',
-    livePreview: 'https://github.com',
+    livePreview: 'https://shambhavisudarsan.github.io/',
   },
   {
     name: 'E-commerce Website with Image Search and Price Prediction',
     description:
-      'Built and web-hosted a MERN stack e-commerce website on Heroku with Image Search feature to ease searching of similar apparel and Price Prediction feature to predict used/new phone prices for sellers.',
+      'An e-commerce website with Image Search and Price Prediction features to search images and predict new/used prices for buyers and sellers.',
     stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
+    sourceCode: 'https://github.com/shambhavisudarsan/E-commerce',
     publicationLink: 'https://link.springer.com/chapter/10.1007/978-981-16-9605-3_57',
-    livePreview: 'https://github.com',
+    livePreview: 'https://buytes.herokuapp.com/',
   },
   {
     name: 'Distributed Systems Project',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Deployed distributed MapReduce with workers and coordinators. Built a fault-tolerant key/value storage system on top of Raft.',
     stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
+    sourceCode: '',
     publicationLink: '',
-    livePreview: 'https://github.com',
+    livePreview: '',
   },
   {
     name: 'Detection of Cyberbullying in Social Media',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Leveraged transfer learning technique to improve accuracy of LSTM and CNN models over Twitter and Formspring dataset.',
     stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
+    sourceCode: '',
     publicationLink: '',
-    livePreview: 'https://github.com',
+    livePreview: '',
   },
 ]
 

@@ -5,6 +5,7 @@ import ArticleIcon from '@mui/icons-material/Article';
 import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
+  <a href={project.sourceCode} target='_blank' rel='noopener noreferrer'>
   <div className='project'>
     <div className='project__header'>
     <h3 className='project__name'>{project.name}</h3>
@@ -58,6 +59,7 @@ const ProjectContainer = ({ project }) => (
       </ul>
     )}
   </div>
+  </a>
 )
 
 export default ProjectContainer
