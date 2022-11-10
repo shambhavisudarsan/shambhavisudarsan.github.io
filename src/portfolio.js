@@ -7,9 +7,9 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Shambhavi Sudarsan',
-  role: '',
+  role: 'MS in Computer Science student at the University Of Utah',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'I recently completed my Bachelors in Computer Engineering in 2021. After which I worked on building a GUI interface for a company. Later, I got an opportunity to work as a Research Assistant under my professor during which I worked to visualize Named Entities using Neo4j. I am currently looking for Summer 2023 internships.',
   resume: 'https://drive.google.com/file/d/1Q7kK6WiDZv37X5rBv3Vyba97b6ccPiTQ/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/shambhavisudarsan/',
@@ -59,8 +59,8 @@ const projects = [
   {
     name: 'Personal Portfolio Website',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'A responsive personal portfolio website hosted on github.',
+    stack: ['ReactJS', 'Javascript', 'HTML','CSS'],
     sourceCode: 'https://github.com',
     publicationLink: '',
     livePreview: 'https://github.com',
@@ -68,7 +68,7 @@ const projects = [
   {
     name: 'E-commerce Website with Image Search and Price Prediction',
     description:
-      'Built and web-hosted a MERN stack e-commerce website on Heroku with Image Search feature to ease searching of similar apparel and Price Prediction feature to predict used/new phone prices for sellers. \n• Created Image Search feature using',
+      'Built and web-hosted a MERN stack e-commerce website on Heroku with Image Search feature to ease searching of similar apparel and Price Prediction feature to predict used/new phone prices for sellers.',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
     publicationLink: 'https://link.springer.com/chapter/10.1007/978-981-16-9605-3_57',
