@@ -14,7 +14,7 @@ const about = {
   role: 'MS in Computer Science student at the University Of Utah',
   description:
     'Hard working and highly motivated student with strong foundation in Data Structures and Algorithms currently looking for Summer 2023 internship opportunities.',
-  resume: 'https://drive.google.com/file/d/1Q7kK6WiDZv37X5rBv3Vyba97b6ccPiTQ/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1HhvkhRd7lxT7W9tUDQt8jKfSr9hrHkco/view',
   social: {
     linkedin: 'https://www.linkedin.com/in/shambhavisudarsan/',
     github: 'https://github.com/ShambhaviSudarsan',
