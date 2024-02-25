@@ -2,7 +2,8 @@ import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio'
 import './About.css'
-import './shamb.jpeg'
+import profilePic from '../../Images/profile_pic.jpg'
+
 
 const About = () => {
   const { name, role, description, resume, social } = about
@@ -60,7 +61,7 @@ const About = () => {
       </div>
     </div>
     <div className='photo-div'>
-    <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEwE2oZsWxIUA/profile-displayphoto-shrink_800_800/0/1661093413613?e=2147483647&v=beta&t=Vbcm2CG6WwOMoBuDaVl4LQOSBFuNE6O8Oq5fP109T-4" className='photo' alt="Shambhavi Sudarsan"/>
+    <img src={profilePic} className='photo' alt="Shambhavi Sudarsan"/>
     {/* <img src="shamb.jpeg" width="100%" alt="Shambhavi Sudarsan"/> */}
   </div>
   </div>
