@@ -17,7 +17,7 @@ const EducationContainer = ({ education }) => (
                 </div>
             </div>
             <div className="degree-body-content">
-                <pre className="degree-description">{education.description}</pre>
+                <pre className="degree-description"><strong>Relevant Courses: </strong>{education.description}</pre>
             </div>
         </div>
     </div>

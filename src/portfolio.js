@@ -1,3 +1,7 @@
+import uouLogo from './Images/university_of_utah_logo.jpg'
+import siesLogo from './Images/sies_gst_logo.jpg'
+import maxismotionLogo from './Images/maxis_motion_logo.jpg'
+
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://ShambhaviSudarsan.github.io/',
@@ -21,35 +25,42 @@ const educations = [
   {
     collegeName: 'University of Utah',
     degree: 'Master of Science in Computer Science',
-    description: 'Courses:\n- Distributed Systems (CS6450)\n- Parallel Programming (CS6230)\n- Computer Architecture (CS6810)',
-    GPA: 'Grade: NA',
+    description: 'Graduate Algorithms, NLP, Deep Learning, Machine Learning, Distributed Systems, Operating Systems, Parallel Programming',
+    GPA: 'Grade: 3.67 / 4.00',
     duration: 'Aug 2022 - Present',
-    logoLink: 'https://media-exp1.licdn.com/dms/image/C560BAQHOj4lIdQUuYA/company-logo_200_200/0/1589925579896?e=1675900800&v=beta&t=mSh1HUdYnr1QFjHNxPFLpW-k7FJu7h2O6amebNCwOdM'
+    logoLink: uouLogo
   },
   {
     collegeName: 'SIES Graduate School of Technology',
     degree: 'Bachelors of Engineering in Computer Engineering',
-    description: 'Courses:\n- Analysis Of Algorithms\n- Discrete Structures\n- Database Management Systems\n- Computer Networks.',
+    description: 'Analysis Of Algorithms, Discrete Structures, Database Management Systems, Computer Networks',
     GPA: 'Grade: 8.48 / 10',
     duration: 'Aug 2017 - Jul 2021',
-    logoLink: 'https://media-exp1.licdn.com/dms/image/C4D0BAQG4hhq2nDsOqQ/company-logo_200_200/0/1631888927941?e=1675900800&v=beta&t=lOhB-FoFZ4drKy1-kZym5bHwDh2VpkBhPx8W-S_27Wo'
+    logoLink: siesLogo
   },
 ]
 
 const experiences = [
   {
+    companyName: 'University of Utah',
+    designation: 'Research Assistant',
+    duration: 'May 2023 - Aug 2023',
+    description: '- Engineered a smart Depth-First Search (DFS) algorithm with CUDA parallelization for efficient grid-based pathfinding, resulting in a 30% decrease in execution time.\n- Revitalized the UIRoute maze routing algorithm, improving runtime by 50% through advanced CUDA-accelerated parallelization and parallelized A* search.',
+    logoLink: uouLogo
+  },
+  {
     companyName: 'SIES Graduate School Of Technology',
     designation: 'Research Assistant',
     duration: 'Feb 2022 - Jul 2022',
     description: '- Visualized NER tags to generate insights from patient records with the help of Neo4j.\n- Generated results by creating a knowledge graph and querying the graph using Cypher Query Language for possible diseases a person might have based on the different symptoms stated.',
-    logoLink: 'https://media-exp1.licdn.com/dms/image/C4D0BAQG4hhq2nDsOqQ/company-logo_200_200/0/1631888927941?e=1675900800&v=beta&t=lOhB-FoFZ4drKy1-kZym5bHwDh2VpkBhPx8W-S_27Wo'
+    logoLink: siesLogo
   },
   {
     companyName: 'Maxis Motion Controls',
-    designation: 'GUI Developer - Intern',
+    designation: 'Software Engineer Intern',
     duration: 'Apr 2021 - Feb 2022',
-    description: '- Enabled searching and deletion of multiple entities from the database by creating a GUI by employing Tkinter library from Python and connecting it with SQL Server 2014 database.\n- Created graphs in GUI using Matplotlib library of Python and built polar plots in the Tkinter-Canvas widget. Produced a curve to show deviation from the actual circle.',
-    logoLink: 'https://media-exp1.licdn.com/dms/image/C560BAQG4c-9gishvww/company-logo_200_200/0/1622203017447?e=1675900800&v=beta&t=DSynKAPx-2Z1hiy8GRcOqNkFNzNnelNRgPZCsSgX5q0'
+    description: '- Spearheaded the development of a Python-Tkinter desktop application, employing an object-oriented architecture and currently servicing over 100 users.\n- Seamlessly integrated polar plots and graphs, enabling thorough visualization and comparison of roll grinder measurements sourced from a Microsoft SQL Server database.\n- Improved data visualization with a 30% granularity boost through advanced features like zoom, saving time and enhancing analysis efficiency. Additionally, created a user-friendly interface using ttk-bootstrap.',
+    logoLink: maxismotionLogo
   },
 ]
 
