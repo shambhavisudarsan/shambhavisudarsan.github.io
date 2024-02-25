@@ -1,5 +1,5 @@
 .skills__list {
-  max-width: 450px;
+  /* max-width: 450px; */
   width: 95%;
   margin: 0 auto;
   display: flex;
@@ -9,5 +9,6 @@
 
 .skills__list-item {
   margin: 0.5em;
-  color: --clr-bg;
+  color: var(--clr-primary);
+  text-transform: none!important;
 }

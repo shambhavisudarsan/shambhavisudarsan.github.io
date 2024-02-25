@@ -77,19 +77,37 @@ const projects = [
     livePreview: 'https://shambhavisudarsan.github.io/',
   },
   {
-    name: 'E-commerce Website with Image Search and Price Prediction',
+    name: 'AIShopify: An Intelligent E-Commerce Platform',
     description:
       'An e-commerce website with Image Search and Price Prediction features to search images and predict new/used prices for buyers and sellers.',
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['React.js', 'Node.js', 'MongoDB', 'MERN'],
     sourceCode: 'https://github.com/shambhavisudarsan/E-commerce',
     publicationLink: 'https://link.springer.com/chapter/10.1007/978-981-16-9605-3_57',
-    livePreview: 'https://buytes.herokuapp.com/',
+    livePreview: '',
+  },
+  {
+    name: 'C Shell',
+    description:
+      'Developed a high-performance Unix-like shell in C. Introduced a history command, not present in the xv6 system.',
+    stack: ['C', 'I/O Redirection', 'File Descriptors', 'System Calls', 'Pipes'],
+    sourceCode: '',
+    publicationLink: '',
+    livePreview: '',
+  },
+  {
+    name: 'Movie Review Sentiment Analysis',
+    description:
+      'Spearheaded sentiment analysis on Rotten Tomatoes Movie Review Dataset, achieving an impressive 84.8% accuracy using the Averaged Perceptron algorithm.',
+    stack: ['Python', 'ML', 'Probability and Statistics'],
+    sourceCode: '',
+    publicationLink: '',
+    livePreview: '',
   },
   {
     name: 'Distributed Systems Project',
     description:
       'Deployed distributed MapReduce with workers and coordinators. Built a fault-tolerant key/value storage system on top of Raft.',
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['Golang', 'Google-MapReduce', 'RAFT'],
     sourceCode: '',
     publicationLink: '',
     livePreview: '',
@@ -98,7 +116,7 @@ const projects = [
     name: 'Detection of Cyberbullying in Social Media',
     description:
       'Leveraged transfer learning technique to improve accuracy of LSTM and CNN models over Twitter and Formspring dataset.',
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['Python', 'ML', 'LSTM', 'CNN'],
     sourceCode: '',
     publicationLink: '',
     livePreview: '',
@@ -108,18 +126,7 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Java', 'Python', 'C', 'C++', 'HTML', 'CSS', 'JavaScript', 'Go', 'Dart', 'Django', 'Pandas', 'Numpy', 'Scikit', 'REST API', 'HuggingFace', 'Flutter', 'Flask', 'TensorFlow', 'PyTorch', 'Node.js', 'Redux', 'Kebernetes', 'Angular', 'React', 'CUDA', 'OpenMP', 'Data Structures and Algorithms', 'System Design', 'SQL', 'MySQL', 'SQLite', 'MongoDB', 'PostgreSQL', 'Neo4J (GraphQL)', 'SQLAlchemy', 'Eclipse', 'VS Code', 'Github', 'Docker', 'Jupyter Notebook', 'Google Colab', 'Jenkins', 'CI/CD', 'Postman'
 ]
 
 const contact = {
