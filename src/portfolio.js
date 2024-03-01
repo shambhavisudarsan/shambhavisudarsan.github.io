@@ -13,7 +13,7 @@ const about = {
   name: 'Shambhavi Sudarsan',
   role: 'MS in Computer Science student at the University Of Utah',
   description:
-    'Hard working and highly motivated student with industry experience in Python and MSSQL, having a strong foundation in Data Structures and Algorithms. Actively seeking New Grad 2024 Software Development Engineer (SDE) opportunities.',
+    'Diligent and driven student with practical exposure in Python and MSSQL within the industry, complemented by proficient knowledge in Data Structures and Algorithms. Eagerly pursuing New Grad 2024 Software Development Engineer (SDE) roles.',
   resume: 'https://drive.google.com/file/d/1HhvkhRd7lxT7W9tUDQt8jKfSr9hrHkco/view',
   social: {
     linkedin: 'https://www.linkedin.com/in/shambhavisudarsan/',
